@@ -6,11 +6,11 @@ This is a C# Telegram bot designed to help users search for plant information by
 ## Screenshots
 <div style="text-align: center;">
   <div style="display: flex; justify-content: center;">
-    <img src="Screenshots/search-1.jpg" alt="screenshot-example" width="300" height="700" style="margin-right: 10px;">
-    <img src="Screenshots/search-2.jpg" alt="screenshot-example" width="300" height="700">
+    <img src="Screenshots/Search-1.jpg" alt="screenshot-example" width="300" height="700" style="margin-right: 10px;">
+    <img src="Screenshots/Search-2.jpg" alt="screenshot-example" width="300" height="700">
   </div>
   <div style="margin-top: 10px;">
-    <img src="Screenshots/broadcast.jpg" alt="screenshot-example" width="650" height="500">
+    <img src="Screenshots/Broadcast.jpg" alt="screenshot-example" width="650" height="500">
   </div>
 </div>
 
