@@ -3,6 +3,18 @@
 ## Overview
 This is a C# Telegram bot designed to help users search for plant information by keyword. It includes a broadcast command for administrators and utilizes a PostgreSQL database along with an external API to retrieve plant data.
 
+## Screenshots
+<div style="text-align: center;">
+  <div style="display: flex; justify-content: center;">
+    <img src="Screenshots/search-1.jpg" alt="screenshot-example" width="300" height="700" style="margin-right: 10px;">
+    <img src="Screenshots/search-2.jpg" alt="screenshot-example" width="300" height="700">
+  </div>
+  <div style="margin-top: 10px;">
+    <img src="Screenshots/broadcast.jpg" alt="screenshot-example" width="650" height="500">
+  </div>
+</div>
+
+
 ## Features
 - **Keyword Search**: Users can search for plant information using keywords.
 - **Broadcast Command**: Administrators can send broadcast messages to all users.
@@ -23,7 +35,10 @@ This is a C# Telegram bot designed to help users search for plant information by
 3. **Configure the bot**
    - Update the bot token and API keys in `appsettings.json`.
 
-4. **Run the bot**
+4. **Set up a webhook**
+   - Example: ``https://api.telegram.org/bot{bot_token}/setWebhook?url={webhook_url}``
+   
+5. **Run the bot**
    ```bash
    dotnet run
    ```
